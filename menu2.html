@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rathi Caterers - Premium Catering Services for Weddings, Corporate Events, and Special Occasions">
+    <title>Rathi Caterers | Premium Catering Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html#home" class="logo">
+                    <span class="logo-text">Rathi</span>
+                    <span class="logo-accent">Caterers</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html#home" class="nav-link">Home</a></li>
+                    <li><a href="index.html#about" class="nav-link">About</a></li>
+                    <li><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li class="nav-dropdown">
+                        <a href="index.html#menu" class="nav-link">Menu <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="menu1.html">Wedding menu</a></li>
+                            <li><a href="menu2.html">60th wedding menu</a></li>
+                            <li><a href="menu3.html">70th wedding menu</a></li>
+                            <li><a href="menu4.html">80th wedding menu</a></li>
+                            <li><a href="menu5.html">Engagement menu</a></li>
+                            <li><a href="menu6.html">Seemantham menu</a></li>
+                            <li><a href="menu7.html">Annaprasana ceremony</a></li>
+                            <li><a href="menu8.html">Birthday menu</a></li>
+                            <li><a href="menu9.html">House warming breakfast menu</a></li>
+                            <li><a href="menu10.html">House warming lunch menu</a></li>
+                            <li><a href="menu11.html">Mehndi Function menu</a></li>
+                            <li><a href="menu12.html">Corporate menu</a></li>
+                            <li><a href="menu13.html">Retirement Function menu</a></li>
+                            <li><a href="menu14.html">Live counter</a></li>
+                            <li><a href="menu15.html">Counters &amp; stalls for wedding function</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="index.html#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <a href="index.html#contact" class="btn btn-primary">Enquire Now</a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+    <section class="hero" style="min-height: 40vh; padding-top: 150px;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <span class="hero-tagline">Premium Selection</span>
+                <h1 class="hero-title">60th Wedding Menu</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-details" style="padding: 80px 0; background-color: var(--bg-main);">
+        <div class="container">
+            <div class="menu-layout">
+                <!-- Left Sidebar: Categories -->
+                <aside class="menu-sidebar">
+                    <ul class="category-list" id="category-list">
+                        <li><a class="category-link" data-filter="1" onclick="renderItems('1')">Evening Snacks Stall</a></li>
+<li><a class="category-link" data-filter="2" onclick="renderItems('2')">Stimulating Drinks</a></li>
+<li><a class="category-link" data-filter="4" onclick="renderItems('4')">Chaat Stall</a></li>
+<li><a class="category-link" data-filter="5" onclick="renderItems('5')">Fresh Juice Stall</a></li>
+<li><a class="category-link" data-filter="6" onclick="renderItems('6')">Mocktail Stall</a></li>
+<li><a class="category-link" data-filter="7" onclick="renderItems('7')">Fresh Cut Fruit Stall</a></li>
+<li><a class="category-link" data-filter="8" onclick="renderItems('8')">Starters</a></li>
+<li><a class="category-link" data-filter="9" onclick="renderItems('9')">Soup Counter</a></li>
+<li><a class="category-link" data-filter="10" onclick="renderItems('10')">Desserts</a></li>
+<li><a class="category-link" data-filter="11" onclick="renderItems('11')">Ice Cream</a></li>
+<li><a class="category-link" data-filter="12" onclick="renderItems('12')">Chinese Main Course</a></li>
+<li><a class="category-link" data-filter="13" onclick="renderItems('13')">Indian Breads With Accompaniments</a></li>
+<li><a class="category-link" data-filter="14" onclick="renderItems('14')">South Indian Tiffin With Accompaniments</a></li>
+<li><a class="category-link" data-filter="15" onclick="renderItems('15')">Rice With Accompaniments</a></li>
+<li><a class="category-link" data-filter="16" onclick="renderItems('16')">Breakfast Menu</a></li>
+<li><a class="category-link" data-filter="17" onclick="renderItems('17')">Kalyana Lunch Menu</a></li>
+<li><a class="category-link" data-filter="18" onclick="renderItems('18')">Counters For Special Occasion</a></li>
+<li><a class="category-link" data-filter="19" onclick="renderItems('19')">Thamboolam Bags</a></li>
+
+                    </ul>
+                </aside>
+
+                <!-- Right Content: Items -->
+                <div class="menu-content">
+                    <div class="menu-grid" id="menu-grid">
+                        <!-- Items rendered by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<style>
+.menu-layout {
+    display: flex;
+    gap: 40px;
+}
+.menu-sidebar {
+    flex: 0 0 300px;
+    background-color: var(--bg-alt);
+    padding: 30px;
+    border: 1px solid var(--accent-gold-subtle);
+    border-radius: 8px;
+    height: max-content;
+    position: sticky;
+    top: 100px;
+}
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.category-link {
+    display: block;
+    padding: 12px 15px;
+    color: var(--text-secondary);
+    font-family: var(--font-body);
+    font-size: 14px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+    transition: var(--transition-medium);
+}
+.category-link:hover, .category-link.active {
+    color: var(--accent-gold);
+    background-color: rgba(212, 175, 55, 0.05);
+    border-left: 2px solid var(--accent-gold);
+}
+.menu-content {
+    flex: 1;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+.menu-card {
+    background-color: var(--bg-alt);
+    border: 1px solid var(--accent-gold-subtle);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: var(--transition-medium);
+}
+.menu-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-gold);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.menu-card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--accent-gold-subtle);
+}
+.menu-card-body {
+    padding: 20px;
+    text-align: center;
+}
+.menu-card-title {
+    font-family: var(--font-heading);
+    color: var(--text-primary);
+    font-size: 18px;
+    margin: 0;
+}
+@media (max-width: 991px) {
+    .menu-layout {
+        flex-direction: column;
+    }
+    .menu-sidebar {
+        flex: none;
+        position: static;
+    }
+}
+</style>
+<script>
+    const menuItems = [{"category": "1", "name": "Sweet Paniyaram", "image": "images/menu/category2/1.jpg"}, {"category": "1", "name": "Kara Kuzhi Paniyaram", "image": "images/menu/category2/2.jpg"}, {"category": "1", "name": "Live Mysore Bonda Stall", "image": "images/menu/category15/10.jpg"}, {"category": "1", "name": "Live Bajji Stall", "image": "images/menu/category15/13.jpg"}, {"category": "1", "name": "White Coconut Chutney", "image": "images/menu/category2/3.jpg"}, {"category": "1", "name": "Red Spicy Chutney", "image": "images/menu/category2/4.jpg"}, {"category": "2", "name": "Live Kumbakonam Degree Coffee", "image": "images/menu/category1/1.jpg"}, {"category": "2", "name": "Assam Tea", "image": "images/menu/category5/49.jpg"}, {"category": "2", "name": "Milk", "image": "images/menu/category2/9.jpg"}, {"category": "2", "name": "Horlicks", "image": "images/menu/category2/6.jpg"}, {"category": "2", "name": "Boost", "image": "images/menu/category2/8.jpg"}, {"category": "2", "name": "Badam Milk", "image": "images/menu/category4/2.jpg"}, {"category": "2", "name": "Bournvita", "image": "images/menu/category2/5.jpg"}, {"category": "2", "name": "Ragimalt", "image": "images/menu/category2/7.jpg"}, {"category": "4", "name": "Panipuri", "image": "images/menu/category2/12.jpg"}, {"category": "4", "name": "Bhelpuri", "image": "images/menu/category2/13.jpg"}, {"category": "4", "name": "Sevpuri", "image": "images/menu/category2/15.jpg"}, {"category": "4", "name": "Dahipuri", "image": "images/menu/category2/14.jpg"}, {"category": "5", "name": " Venus Signature Fresh Mint Lime Juice ", "image": "images/menu/category7/1.jpg"}, {"category": "5", "name": "Grape Juice", "image": "images/menu/category2/17.jpg"}, {"category": "5", "name": "Pineapple Juice", "image": "images/menu/category2/18.jpg"}, {"category": "5", "name": "Watermelon Juice", "image": "images/menu/category2/19.jpg"}, {"category": "5", "name": "Mosambi Juice", "image": "images/menu/category2/16.jpg"}, {"category": "6", "name": "Black Currant ", "image": "images/menu/category2/21.jpg"}, {"category": "6", "name": "Mango ", "image": "images/menu/category2/24.jpg"}, {"category": "6", "name": "Orange ", "image": "images/menu/category2/23.jpg"}, {"category": "6", "name": "Lemon ", "image": "images/menu/category2/26.jpg"}, {"category": "6", "name": "Blue Berry ", "image": "images/menu/category2/29.jpg"}, {"category": "6", "name": "Strawberry ", "image": "images/menu/category2/22.jpg"}, {"category": "6", "name": "Litchi ", "image": "images/menu/category2/25.jpg"}, {"category": "6", "name": "Kiwi ", "image": "images/menu/category2/27.jpg"}, {"category": "6", "name": "Green Apple ", "image": "images/menu/category2/28.jpg"}, {"category": "6", "name": "Blue Curacao ", "image": "images/menu/category2/20.jpg"}, {"category": "7", "name": "Dragon Fruit", "image": "images/menu/category2/30.jpg"}, {"category": "7", "name": "Pineapple", "image": "images/menu/category2/31.jpg"}, {"category": "7", "name": "Papaya", "image": "images/menu/category2/32.jpg"}, {"category": "7", "name": "Watermelon", "image": "images/menu/category2/33.jpg"}, {"category": "7", "name": "Apple", "image": "images/menu/category2/34.jpg"}, {"category": "7", "name": "Musk Melon", "image": "images/menu/category2/35.jpg"}, {"category": "7", "name": "Hill Banana", "image": "images/menu/category2/36.jpg"}, {"category": "8", "name": "Paneer Tikka", "image": "images/menu/category1/112.jpg"}, {"category": "8", "name": "Veg  Roll", "image": "images/menu/category12/6.jpg"}, {"category": "8", "name": "Aloo Tikki", "image": "images/menu/category12/8.jpg"}, {"category": "8", "name": "Tomato Sauce", "image": "images/menu/category1/48.jpg"}, {"category": "8", "name": "Chilli Sauce", "image": "images/menu/category12/13.jpg"}, {"category": "8", "name": "Schezwan Sauce", "image": "images/menu/category1/106.jpg"}, {"category": "9", "name": "Tomato Soup", "image": "images/menu/category2/39.jpg"}, {"category": "9", "name": "Sweet Corn Soup", "image": "images/menu/category2/38.jpg"}, {"category": "9", "name": "Mushroom Soup", "image": "images/menu/category1/107.jpg"}, {"category": "9", "name": "Mixed Vegetable Soup", "image": "images/menu/category1/113.jpg"}, {"category": "10", "name": "Venus Signature Elaneer Payasam", "image": "images/menu/category3/3.jpg"}, {"category": "10", "name": "Kaju Katli", "image": "images/menu/category2/101.jpg"}, {"category": "10", "name": "Pure Badam Halwa", "image": "images/menu/category2/40.jpg"}, {"category": "10", "name": "Rasmalai", "image": "images/menu/category1/35.jpg"}, {"category": "10", "name": "Arcot Sweet Makkan Peda", "image": "images/menu/category2/41.jpg"}, {"category": "10", "name": "Jalebi", "image": "images/menu/category2/42.jpg"}, {"category": "10", "name": "Hot Pure Badam Kheer", "image": "images/menu/category2/43.jpg"}, {"category": "10", "name": "Rajasthani Style of Beeda", "image": "images/menu/category1/84.jpg"}, {"category": "11", "name": "Chennai No.1 Abu Gatta Ice Cream", "image": "images/menu/category2/45.jpg"}, {"category": "11", "name": "Kulfi Stick", "image": "images/menu/category1/110.jpg"}, {"category": "11", "name": "Pot Ice Cream", "image": "images/menu/category1/111.jpg"}, {"category": "11", "name": "Pineapple ", "image": "images/menu/category2/50.jpg"}, {"category": "11", "name": "Mango ", "image": "images/menu/category2/52.jpg"}, {"category": "11", "name": "Butterscotch", "image": "images/menu/category2/46.jpg"}, {"category": "11", "name": "Pista", "image": "images/menu/category2/49.jpg"}, {"category": "11", "name": "Orange ", "image": "images/menu/category2/51.jpg"}, {"category": "11", "name": "Honey", "image": "images/menu/category2/53.jpg"}, {"category": "11", "name": "Strawberry", "image": "images/menu/category2/48.jpg"}, {"category": "11", "name": "Vanilla", "image": "images/menu/category2/47.jpg"}, {"category": "11", "name": "Guava", "image": "images/menu/category2/54.jpg"}, {"category": "11", "name": "Banana", "image": "images/menu/category2/56.jpg"}, {"category": "12", "name": "Mixed Vegetable Fried Rice", "image": "images/menu/category2/57.jpg"}, {"category": "12", "name": "Mixed Vegetable Noodles", "image": "images/menu/category2/113.jpg"}, {"category": "12", "name": "Schezwan Fried Rice", "image": "images/menu/category2/114.jpg"}, {"category": "12", "name": "Schezwan Noodles", "image": "images/menu/category2/115.jpg"}, {"category": "12", "name": "Tomato Sauce", "image": "images/menu/category2/58.jpg"}, {"category": "12", "name": "Chilli Sauce", "image": "images/menu/category12/13.jpg"}, {"category": "13", "name": "Venus Signature 9.5 Inches Phulka", "image": "images/menu/category1/55.jpg"}, {"category": "13", "name": "Rumali Roti", "image": "images/menu/category2/60.jpg"}, {"category": "13", "name": "Cashew Ghee Paneer Butter Masala", "image": "images/menu/category2/61.jpg"}, {"category": "13", "name": "Mushroom Pepper Gravy", "image": "images/menu/category2/117.jpg"}, {"category": "13", "name": "Kadai Veg", "image": "images/menu/category2/116.jpg"}, {"category": "14", "name": "Venus Special Dosa & Idli", "image": "images/menu/category2/62.jpg"}, {"category": "14", "name": "Uthappam", "image": "images/menu/category1/73.jpg"}, {"category": "14", "name": "South Indian Tiffin Sambar", "image": "images/menu/category2/65.jpg"}, {"category": "14", "name": "Podi With Nallennai ", "image": "images/menu/category2/97.jpg"}, {"category": "14", "name": "White Coconut Chutney", "image": "images/menu/category2/63.jpg"}, {"category": "14", "name": "Red Spicy Chutney", "image": "images/menu/category2/64.jpg"}, {"category": "14", "name": "Mint Chutney", "image": "images/menu/category2/66.jpg"}, {"category": "14", "name": "Groundnut Chutney", "image": "images/menu/category4/12.jpg"}, {"category": "15", "name": "Veg Biryani", "image": "images/menu/category2/67.jpg"}, {"category": "15", "name": "Mixed Veg Cucumber White Onion Raita", "image": "images/menu/category2/68.jpg"}, {"category": "15", "name": "Bisi-Bele-Bath", "image": "images/menu/category2/69.jpg"}, {"category": "15", "name": "Potato Chenna Peas Curry", "image": "images/menu/category2/70.jpg"}, {"category": "15", "name": "National Poriyal (Carrot, Cabbage & Beans)", "image": "images/menu/category2/71.jpg"}, {"category": "15", "name": "Varuval (Vazhakka Podi Mass)", "image": "images/menu/category2/72.jpg"}, {"category": "15", "name": "Curd Rice (Garnished with Carrot, Pomegranate, Parsley & Green Chilli)", "image": "images/menu/category2/73.jpg"}, {"category": "15", "name": "Pickle (Manga Thokku)", "image": "images/menu/category2/74.jpg"}, {"category": "15", "name": "Steamed Rice", "image": "images/menu/category2/75.jpg"}, {"category": "15", "name": "Tomato Rasam", "image": "images/menu/category2/76.jpg"}, {"category": "15", "name": "Manathakkali Vatha Kuzhambu", "image": "images/menu/category2/77.jpg"}, {"category": "15", "name": "Buttermilk", "image": "images/menu/category2/78.jpg"}, {"category": "15", "name": "Mor Millaga", "image": "images/menu/category2/79.jpg"}, {"category": "15", "name": "Chips (Salt/Spicy)", "image": "images/menu/category2/80.jpg"}, {"category": "15", "name": "Bisleri Mineral Water", "image": "images/menu/category2/81.jpg"}, {"category": "15", "name": "Hill Banana", "image": "images/menu/category2/82.jpg"}, {"category": "16", "name": "Carrot Halwa", "image": "images/menu/category2/83.jpg"}, {"category": "16", "name": "Chenna Basundi", "image": "images/menu/category11/12.jpg"}, {"category": "16", "name": "Mallipoo Idli", "image": "images/menu/category2/85.jpg"}, {"category": "16", "name": "Ghee Ven Pongal", "image": "images/menu/category2/86.jpg"}, {"category": "16", "name": "South Indian Kal Dosa", "image": "images/menu/category2/87.jpg"}, {"category": "16", "name": "Poori (Live Counter)", "image": "images/menu/category2/88.jpg"}, {"category": "16", "name": "Poori Masala", "image": "images/menu/category2/89.jpg"}, {"category": "16", "name": "Idiyappam", "image": "images/menu/category2/90.jpg"}, {"category": "16", "name": "White Veg Kurma", "image": "images/menu/category2/91.jpg"}, {"category": "16", "name": "South Indian Tiffin Sambar", "image": "images/menu/category2/92.jpg"}, {"category": "16", "name": "White Coconut Chutney", "image": "images/menu/category2/93.jpg"}, {"category": "16", "name": "Spicy Chutney", "image": "images/menu/category2/94.jpg"}, {"category": "16", "name": "Mint Chutney", "image": "images/menu/category2/95.jpg"}, {"category": "16", "name": "Groundnut Chutney", "image": "images/menu/category4/12.jpg"}, {"category": "16", "name": "Vadacurry", "image": "images/menu/category2/96.jpg"}, {"category": "16", "name": "Podi With Nallaennai ", "image": "images/menu/category2/97.jpg"}, {"category": "16", "name": "Medu Vada", "image": "images/menu/category2/98.jpg"}, {"category": "16", "name": "Bisleri Mineral Water Bottle", "image": "images/menu/category2/99.jpg"}, {"category": "17", "name": "Rasmalai", "image": "images/menu/category2/100.jpg"}, {"category": "17", "name": "Kaju Katli", "image": "images/menu/category2/101.jpg"}, {"category": "17", "name": "Milkmaid Semiya Payasam", "image": "images/menu/category2/102.jpg"}, {"category": "17", "name": "Steamed Rice", "image": "images/menu/category2/75.jpg"}, {"category": "17", "name": "Yellow Dhal with Ghee", "image": "images/menu/category1/90.jpg"}, {"category": "17", "name": "Paruppu Podi with Ghee", "image": "images/menu/category2/103.jpg"}, {"category": "17", "name": "Thair Vada", "image": "images/menu/category2/104.jpg"}, {"category": "17", "name": "Kathambha Sambar", "image": "images/menu/category2/105.jpg"}, {"category": "17", "name": "Tomato Rasam", "image": "images/menu/category2/76.jpg"}, {"category": "17", "name": "Chow Chow Kootu", "image": "images/menu/category2/106.jpg"}, {"category": "17", "name": "Karunai Varuval", "image": "images/menu/category2/107.jpg"}, {"category": "17", "name": "Avial", "image": "images/menu/category2/108.jpg"}, {"category": "17", "name": "Kathirikka Mocha Kara Kuzhambu", "image": "images/menu/category2/109.jpg"}, {"category": "17", "name": "Curd Rice", "image": "images/menu/category2/73.jpg"}, {"category": "17", "name": "Pickle (Lemon)", "image": "images/menu/category2/110.jpg"}, {"category": "17", "name": "Kalyana Appalam", "image": "images/menu/category2/111.jpg"}, {"category": "17", "name": "Bisleri Mineral Water Bottle", "image": "images/menu/category2/99.jpg"}, {"category": "17", "name": "Ice Cream", "image": "images/menu/category2/112.jpg"}, {"category": "17", "name": "Sweet Beeda", "image": "images/menu/category1/84.jpg"}, {"category": "19", "name": "Thamboolam Bag", "image": "images/menu/category1/71.jpg"}, {"category": "18", "name": "Reception Arthi Counter (31 Plates)", "image": "images/menu/category14/2.jpg"}, {"category": "18", "name": "Welcome Reception Thamboolam Stall", "image": "images/menu/category14/21.jpg"}, {"category": "18", "name": "Reception Evening Tea Shop Stall", "image": "images/menu/category1/103.jpg"}, {"category": "18", "name": "Live Jalebi Stall", "image": "images/menu/category2/42.jpg"}, {"category": "18", "name": "Live Soup Stall", "image": "images/menu/category14/3.jpg"}, {"category": "18", "name": "Live Paniyaram Stall", "image": "images/menu/category15/9.jpg"}, {"category": "18", "name": "Live Chaat Stall", "image": "images/menu/category14/4.jpg"}, {"category": "18", "name": "Live Uthappam Stall", "image": "images/menu/category15/5.jpg"}, {"category": "18", "name": "Live Dosa Stall", "image": "images/menu/category15/4.jpg"}, {"category": "18", "name": "Live Poori & Chola Poori Stall", "image": "images/menu/category15/6.jpg"}, {"category": "18", "name": "Live Phulka Stall", "image": "images/menu/category15/15.jpg"}, {"category": "18", "name": "Live Parotta Stall", "image": "images/menu/category15/14.jpg"}, {"category": "18", "name": "Live Masala Badam Milk Stall", "image": "images/menu/category15/12.jpg"}, {"category": "18", "name": "Live Starter Stall", "image": "images/menu/category15/17.jpg"}, {"category": "18", "name": "Live Sweet Corn Stall", "image": "images/menu/category15/18.jpg"}, {"category": "18", "name": "Live Stone Ice Cream Stall", "image": "images/menu/category15/19.jpg"}, {"category": "18", "name": "Live Spring Potato Stall", "image": "images/menu/category15/16.jpg"}, {"category": "18", "name": "Live Bajji Stall", "image": "images/menu/category15/13.jpg"}, {"category": "18", "name": "Live Chocolate Fountain Stall", "image": "images/menu/category14/17.jpg"}, {"category": "18", "name": "Live Fresh Juice Stall", "image": "images/menu/category14/14.jpg"}, {"category": "18", "name": "Live Mocktail Stall", "image": "images/menu/category14/6.jpg"}, {"category": "18", "name": "Live Fresh Fruit Cut Stall", "image": "images/menu/category14/8.jpg"}, {"category": "18", "name": "Live Popcorn Stall", "image": "images/menu/category14/16.jpg"}, {"category": "18", "name": "Live Sugar Candy Stall", "image": "images/menu/category1/104.jpg"}, {"category": "18", "name": "Mehndi Stall", "image": "images/menu/category1/105.jpg"}, {"category": "18", "name": "Bangle Stall", "image": "images/menu/category14/9.jpg"}, {"category": "18", "name": "Children Stick Ballon Stall", "image": "images/menu/category14/10.jpg"}, {"category": "18", "name": "Ice Cream Stall (12 Varieties)", "image": "images/menu/category14/19.jpg"}, {"category": "18", "name": "Rajasthani Style Of Sweet Beda Stall", "image": "images/menu/category14/20.jpg"}, {"category": "18", "name": "Muhurtham Morning Tea Shop Stall", "image": "images/menu/category1/103.jpg"}, {"category": "18", "name": "Grand Venus Couple Service Dining", "image": "images/menu/category14/22.jpg"}];
+    
+    function renderItems(filterId) {
+        const grid = document.getElementById('menu-grid');
+        grid.innerHTML = '';
+        const filtered = menuItems.filter(item => item.category === filterId);
+        filtered.forEach(item => {
+            grid.innerHTML += `
+                <div class="menu-card">
+                    <img src="https://venuscateringservice.com/${item.image}" class="menu-card-img" alt="${item.name}">
+                    <div class="menu-card-body">
+                        <h3 class="menu-card-title">${item.name}</h3>
+                    </div>
+                </div>
+            `;
+        });
+        
+        // Update active class
+        document.querySelectorAll('.category-link').forEach(link => {
+            link.classList.remove('active');
+            if (link.dataset.filter === filterId) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    // Render first category by default
+    document.addEventListener('DOMContentLoaded', () => {
+        const firstCat = document.querySelector('.category-link');
+        if (firstCat) {
+            renderItems(firstCat.dataset.filter);
+        }
+    });
+</script>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html#home" class="logo">
+                        <span class="logo-text">Rathi</span>
+                        <span class="logo-accent">Caterers</span>
+                    </a>
+                    <p class="footer-desc">Creating memorable culinary experiences for over 40 years. Your trusted partner in exceptional catering services.</p>
+                    <div class="social-links">
+                        <a href="index.html#" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="index.html#" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="index.html#" aria-label="WhatsApp">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#gallery">Gallery</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Wedding Catering</a></li>
+                        <li><a href="index.html#services">Corporate Catering</a></li>
+                        <li><a href="index.html#services">Party Catering</a></li>
+                        <li><a href="index.html#services">Outdoor Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h4>Working Hours</h4>
+                    <ul>
+                        <li><span>Monday - Saturday</span><span>9:00 AM - 8:00 PM</span></li>
+                        <li><span>Sunday</span><span>By Appointment</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Rathi Caterers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="index.html#home" class="back-to-top" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
